@@ -10,6 +10,7 @@ import { MenuComponent } from './Pages/menu/menu.component';
 import { AboutComponent } from './Pages/about/about.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
