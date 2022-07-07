@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --primary-color:green;
+  --secondary-color:black;
+}
+
+body{
+ font-family: Arial,Arial, Helvetica, sans-serif;
+ height: 100vh;
+}
