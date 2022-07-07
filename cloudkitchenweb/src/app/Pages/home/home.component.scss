@@ -5,10 +5,23 @@
   background-size: cover;
 }
 
-.banner h1{
-  color: white;
-  font-size:50px ;
-  top: 30%;
+.banner #upper_heading
+{
+  color: orangered;
+  // font-style: bold;
+  font-size:60px ;
+  top: 17%;
+  left: 30%;
+  position: absolute;
+}
+
+
+ #lower_heading
+{
+  color: orange;
+  // font-style: bold;
+  font-size:60px ;
+  top: 17%;
   left: 30%;
   position: absolute;
 }
