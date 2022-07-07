@@ -30,7 +30,26 @@
   // margin-top: 20px;
 }
 
-.content a:hover{
+.content a:hover {
   background-color: var(--primary-color);
   color: white;
 }
+
+
+.stepbox
+{
+
+padding: 20px 20px;
+ background-color: black;
+ color: white;
+ border-radius: 5px;
+text-align: center;
+}
+
+.stepbox h1{
+  font-size: 70px;
+
+  color: var(--primary-color);
+}
+
+
