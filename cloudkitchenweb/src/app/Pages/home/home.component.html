@@ -32,12 +32,13 @@
 <div class="container mt-4 mb-4    ">
   <h1 class="text-center" >Customers<span class="highlight">Favourite Food</span> </h1>
   <div class="row">
-    <div class="col-lg-3" *ngFor="let item of foodData">
-      <div class="foodBox">
+    <div class="col-lg-3" *ngFor="let item of foodData;index as i">
+      <div class="foodBox" *ngIf="i<=3">
         <img src="{{item.foodImg}}" alt="">
         <h1>{{item.foodName}}</h1>
-        <p>{{item.foodPrice}}</p>
+        <p>{{item.foodPrice | currency:'INR'}}</p>
       </div>
     </div>
+    <a routerLink="menu" class="viewmorebtn" >View More</a>
   </div>
 </div>
