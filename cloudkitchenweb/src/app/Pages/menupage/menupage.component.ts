@@ -24,5 +24,9 @@ export class MenupageComponent implements OnInit {
         return value.id==this.getMenuId;
       })
     }
+    console.log(this.menuData);
+
   }
+
+
 }
