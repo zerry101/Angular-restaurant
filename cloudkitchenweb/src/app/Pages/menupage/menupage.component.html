@@ -1,17 +1,22 @@
-<p>menupage works!</p>
+<!-- <p>menupage works!</p> -->
 
   <div class="conatiner mt-5 mb-5" >
+
     <div class="row">
-      <div class="col-lg-6" >
-        <img src="{{menuData[0].foodImg}}"   alt="" width= 100%; >
-        <h1>{{menuData[0].foodName}}</h1>
+
+      <div class="col-lg-6">
+        <img id="menuimg" src="{{menuData[0].foodImg}}"   alt="" width= "100%"/>
+        <h1 class="mt-3"> {{menuData[0].foodName}}</h1>
         <p>{{menuData[0].foodDetails}}</p>
         <p>{{menuData[0].foodPrice | currency :'INR'}}</p>
       </div>
 
-      <!-- <div class="col-lg-6">
-        <input type="text" plcae>
-      </div> -->
+      <div class="col-lg-6">
+        <form action="" >
+          <input  class="form-control" type="text" placeholder="Enter Your Name"/>
+          <input class="form-control" type="email" placeholder="Enter Your email"/>
+       </form>
+      </div>
 
     </div>
 
